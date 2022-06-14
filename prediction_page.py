@@ -2,11 +2,11 @@ import streamlit as st
 import pickle
 import numpy as np
 
+data = pickle.load(open("saved_steps.pkl", "rb"))
+
 regressor = data["model"]
 le_education = data["le_education"]
 le_country = data["le_country"]
-
-data = pickle.load(open("saved_steps.pkl", "rb"))
 
 def show_prediction_page():
     st.title("Jobs4U Salary Prediction")
