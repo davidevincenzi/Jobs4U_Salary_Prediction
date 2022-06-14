@@ -20,7 +20,7 @@ def show_prediction_page():
     )
 
     countries = (
-        "United States",
+        "United States of America",
         "India",
         "Germany",
         "United Kingdom of Great Britain and Northern Ireland",
