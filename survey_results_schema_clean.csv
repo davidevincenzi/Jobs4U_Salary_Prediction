@@ -1,0 +1,5 @@
+qid,qname,question,force_resp,type,selector
+QID6,Country,"Where do you live? <span style=""font-weight: bolder;"">*</span>",TRUE,MC,DL
+QID25,EdLevel,Which of the following best describes the highest level of formal education that you’ve completed? *,FALSE,MC,SAVR
+QID34,YearsCodePro,"NOT including education, how many years have you coded professionally (as a part of your work)?",FALSE,MC,DL
+QID51,CompTotal,"What is your current total compensation (salary, bonuses, and perks, before taxes and deductions), in ${q://QID50/ChoiceGroup/SelectedChoicesTextEntry}? Please enter a whole number in the box below, without any punctuation. If you are paid hourly, please estimate an equivalent weekly, monthly, or yearly salary. If you prefer not to answer, please leave the box empty.",FALSE,TE,SL
