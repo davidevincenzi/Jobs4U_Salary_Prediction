@@ -5,8 +5,8 @@ import numpy as np
 data = pickle.load(open("saved_steps.pkl", "rb"))
 
 regressor = data["model"]
-le_education = data["le_education"]
-le_country = data["le_country"]
+le_education = data["lbl_education"]
+le_country = data["lbl_country"]
 
 def show_prediction_page():
     st.title("Jobs4U Salary Prediction")
