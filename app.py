@@ -15,7 +15,7 @@ page = option_menu(
 
 if page == "Prediction":
     show_prediction_page()
-else if page == "Contacts":
+elif page == "Contacts":
 	show_contacts_page()
 else:
 	show_dashboard_page()
